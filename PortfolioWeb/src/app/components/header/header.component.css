@@ -4,9 +4,40 @@
     background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#redes{
-    width: 100px;
+.container{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 0.5em;
+}
+
+.btn{
+    border-width: medium;
+}
+
+img{
+    width: 50px;
+}
+
+#logo{
+    width: 250px;
+}
+
+@media(max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .redes img{
+        margin: 0.3em;
+    }
 }
