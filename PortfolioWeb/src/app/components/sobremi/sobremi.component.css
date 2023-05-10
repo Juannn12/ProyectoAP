@@ -2,7 +2,6 @@ div{
     text-align: center;
     color: white;
     padding: 10px;
-
 }
 
 .row{
@@ -14,6 +13,7 @@ div{
 
 .sobremi{
     margin-top: 75px;
+    border-bottom: 2px solid whitesmoke;
 }
 
 #nombre{

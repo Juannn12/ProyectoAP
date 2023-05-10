@@ -1,12 +1,20 @@
 .row{
+    padding: 20px;
     background: #c94b4b;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#redes{
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+div{
+    color: white;
+}
+h1, h3{
+    display: inline;
+}
+
+#work{
+    border-radius: 75px 75px 75px 75px;
+    box-shadow: 15px 15px 30px #000000;
+    padding: 20px;
+    width: 70%;
 }
