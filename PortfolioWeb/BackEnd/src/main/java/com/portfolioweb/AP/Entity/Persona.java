@@ -1,4 +1,4 @@
-package com.portfolioweb.mgb.Entity;
+package com.portfolioweb.AP.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

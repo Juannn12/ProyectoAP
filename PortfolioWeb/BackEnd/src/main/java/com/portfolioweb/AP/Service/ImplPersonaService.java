@@ -1,15 +1,15 @@
-package com.portfolioweb.mgb.Service;
+package com.portfolioweb.AP.Service;
 
-import com.portfolioweb.mgb.Entity.Persona;
-import com.portfolioweb.mgb.Interface.IPersonaService;
-import com.portfolioweb.mgb.Repository.IPersonaRepository;
+import com.portfolioweb.AP.Entity.Persona;
+import com.portfolioweb.AP.Interface.iPersonaService;
+import com.portfolioweb.AP.Repository.iPersonaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ImpPersonaService implements IPersonaService{
-    @Autowired IPersonaRepository ipersonaRepository;
+public class ImplPersonaService implements iPersonaService{
+    @Autowired iPersonaRepository ipersonaRepository;
     
     @Override
     public List<Persona> getPersona() {

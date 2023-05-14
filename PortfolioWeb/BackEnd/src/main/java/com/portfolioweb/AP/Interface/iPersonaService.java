@@ -1,10 +1,10 @@
-package com.portfolioweb.mgb.Interface;
+package com.portfolioweb.AP.Interface;
 
-import com.portfolioweb.mgb.Entity.Persona;
+import com.portfolioweb.AP.Entity.Persona;
 import java.util.List;
 
-public interface IPersonaService {
-    //Traer una lista de personas
+public interface iPersonaService {
+    //lista de personas
     public List<Persona> getPersona();
     
     //Guardar un objeto de tipo Persona

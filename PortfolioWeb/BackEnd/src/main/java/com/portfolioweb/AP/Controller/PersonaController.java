@@ -1,7 +1,7 @@
-package com.portfolioweb.mgb.Controller;
+package com.portfolioweb.AP.Controller;
 
-import com.portfolioweb.mgb.Entity.Persona;
-import com.portfolioweb.mgb.Interface.IPersonaService;
+import com.portfolioweb.AP.Entity.Persona;
+import com.portfolioweb.AP.Interface.iPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 public class PersonaController {
-    @Autowired IPersonaService ipersonaService;
+    @Autowired iPersonaService ipersonaService;
     
     @GetMapping("/personas/traer")
     public List<Persona> getPersona(){

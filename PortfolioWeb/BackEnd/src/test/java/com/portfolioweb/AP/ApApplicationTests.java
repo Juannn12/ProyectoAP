@@ -1,10 +1,10 @@
-package com.portfolioweb.mgb;
+package com.portfolioweb.AP;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MgbApplicationTests {
+class ApApplicationTests {
 
 	@Test
 	void contextLoads() {
